@@ -1,6 +1,44 @@
 <!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="utf-8" lang="es">
-    <link rel="stylesheet" href="./css/">
-    <link rel="icon" href="./img/favicon.ico">
+  <title>Encriptador</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="icon" href="./img/favicon.png" />
+  <script src="./js/encriptacion.js"></script>
 </head>
+<body>
+  <header>
+    <img src="./img/logo.png" class="logo" alt="logo"/>
+    <h1>Encriptador</h1>
+  </header>
+  <main>
+    <section id="entrada">
+      <textarea
+        placeholder="Ingrese texto aqui (minusculas y no acentos)"
+        value="hola"
+      ></textarea>
+      <section id="botones">
+        <button>Encriptar</button>
+        <button>Desencriptar</button>
+      </section>
+    </section>
+    <section id="salida">
+      <div id="vacio">
+        <img src="./img/Muneco.png" alt="muneco.png"/>
+        <h2>Ningún mensaje fue encontrado</h2>
+        <p>Ingresa el texto que desees encriptar</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <img src="./img/bxl-github.svg" alt="github" class="logo" />
+    <img
+      src="./img/bxl-linkedin-square.svg"
+      alt="linkedin-square-logo-24"
+      class="logo"
+    />
+  </footer>
+</body>
+</html>

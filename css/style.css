@@ -3,3 +3,32 @@
     margin: 0;
     text-decoration: none;
 }
+
+main {
+    margin-left: 38px;
+    margin-right: 38px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header {
+    display: flex;
+    width: 75%;
+    height: 48px;
+}
+
+#entrada {
+    width: 680px;
+}
+
+textarea {
+    width: 680px;
+    height: 75%;
+    resize: none;
+}
+
+#botones {
+    display: flex;
+    justify-content: center;
+}
+
