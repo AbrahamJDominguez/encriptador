@@ -2,33 +2,121 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    margin-top: 16px;
+}
+
+body {
+    background-color: lightblue;
 }
 
 main {
     margin-left: 38px;
-    margin-right: 38px;
+    margin-right: 20px;
     display: flex;
     justify-content: space-evenly;
+    height: 620px;
 }
 
 header {
     display: flex;
     width: 75%;
     height: 48px;
+    margin-top: 40px;
+    margin-left: 88px;
 }
 
 #entrada {
-    width: 680px;
+    width: 580px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 textarea {
-    width: 680px;
-    height: 75%;
+    width: 100%;
+    border-radius: 15px;
+    border-color: #0A3871;
+    background-color: lightblue;
+    height: 85%;
+    padding: 8px;
     resize: none;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#texto {
+    height: 90%;
+    display: block;
+    margin-top: 8px;
 }
 
 #botones {
     display: flex;
     justify-content: center;
+    justify-content: space-evenly;
 }
 
+.boton {
+    height: 37px;
+    width: 166px;
+    border-radius: 12px;
+    padding: 10px;
+    border-color: #0A3871;
+}
+
+#enc, #copiar {
+    background-color: #0A3871;
+    color: white;
+}
+
+#enc:hover, #copiar:hover {
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+#des {
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+#des:hover {
+    background-color: #0A3871;
+    color: white; 
+}
+
+#salida {
+    z-index: 0;
+    top: 80%;
+    background-color: aliceblue;
+    margin-top: -47px;
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 340px;
+}
+
+#salida img {
+    width: 75%;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    height: 35px;
+}
+
+#vacio {
+    justify-content: center;
+    margin-top: 35%;
+}
+
+#novacio {
+    display: none;
+    height: 100%;
+}

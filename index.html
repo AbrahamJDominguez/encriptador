@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="icon" href="./img/favicon.png" />
-  <script src="./js/encriptacion.js"></script>
 </head>
 <body>
   <header>
+    <h1>Encript</h1>
     <img src="./img/logo.png" class="logo" alt="logo"/>
-    <h1>Encriptador</h1>
+    <h1>dor</h1>
   </header>
   <main>
     <section id="entrada">
@@ -20,25 +20,31 @@
         value="hola"
       ></textarea>
       <section id="botones">
-        <button>Encriptar</button>
-        <button>Desencriptar</button>
+        <button class="boton" id="enc">Encriptar</button>
+        <button class="boton" id="des">Desencriptar</button>
       </section>
     </section>
     <section id="salida">
       <div id="vacio">
         <img src="./img/Muneco.png" alt="muneco.png"/>
         <h2>Ningún mensaje fue encontrado</h2>
+        <br/>
         <p>Ingresa el texto que desees encriptar</p>
+      </div>
+      <div id="novacio">
+        <p id="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto hic voluptatem sed, quis eaque dolores sunt, possimus doloremque ipsam excepturi eveniet ipsum molestiae nihil commodi saepe ea ipsa, aspernatur pariatur!</p>
+        <button class="boton" id="copiar">Copiar</button>
       </div>
     </section>
   </main>
   <footer>
-    <img src="./img/bxl-github.svg" alt="github" class="logo" />
-    <img
+    <a href="https://github.com/AbrahamJDominguez"><img src="./img/bxl-github.svg" alt="github" class="logo" /></a>
+    <a href="https://www.linkedin.com/in/abraham-jdominguez/"><img
       src="./img/bxl-linkedin-square.svg"
       alt="linkedin-square-logo-24"
       class="logo"
-    />
+    /></a>
   </footer>
+  <script src="./js/encriptacion.js"></script>
 </body>
 </html>
