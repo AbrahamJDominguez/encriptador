@@ -112,6 +112,11 @@ footer {
     margin-top: 10px;
 }
 
+footer p {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
 #vacio {
     justify-content: center;
     margin-top: 35%;
