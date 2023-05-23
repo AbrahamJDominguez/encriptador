@@ -149,8 +149,8 @@ footer {
     #entrada {
         width: 90%;
         height: fit-content;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: auto;
+        margin-left: auto;
         justify-content: center;
     }
 
@@ -166,34 +166,54 @@ footer {
 
     .boton {
         height: 3rem;
-        width: 8rem;
         border-radius: 12px;
         padding: 10px;
         border-color: #0A3871;
         margin-top: 5px;
     }
 
-    .separa {
-        display: block;
-    }
 
     #botones {
-        justify-self: center;
+        justify-content: center;
+        text-align: center;
         display: block;
     }
 
-    #enc, #des {
-        margin-left: 30%;
-        width: 40%;
-    }
+
 
     textarea {
         height: 30rem;
+        width: 95%;
     }
 
 
     footer {
         height: 4rem;
+    }
+
+    #enc, #copiar, #enc:hover, #copiar:hover {
+        background-color: #0A3871;
+        color: white;
+        width: 100%;
+        
+    }
+    
+    #enc:active, #copiar:active {
+        background-color: #D8DFE8;
+        color: #0A3871;
+        width: 100%;
+    }
+    
+    #des, #des:hover {
+        background-color: #D8DFE8;
+        color: #0A3871;
+        width: 100%;
+    }
+    
+    #des:active {
+        background-color: #0A3871;
+        color: white; 
+        width: 100%;
     }
 }
 
@@ -239,5 +259,25 @@ footer {
 
     footer {
         height: 4rem;
+    }
+
+    #enc, #copiar, #enc:hover, #copiar:hover {
+        background-color: #0A3871;
+        color: white;
+    }
+    
+    #enc:active, #copiar:active {
+        background-color: #D8DFE8;
+        color: #0A3871;
+    }
+    
+    #des, #des:hover {
+        background-color: #D8DFE8;
+        color: #0A3871;
+    }
+    
+    #des:active {
+        background-color: #0A3871;
+        color: white; 
     }
 }

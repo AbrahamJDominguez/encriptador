@@ -7,7 +7,7 @@ function obtenText(){
 }
 
 function estadoImg(parrafo){
-    if(parrafo.length>1){
+    if(parrafo.length>0){
         document.querySelector("#vacio").style.display = "none";
         document.querySelector("#novacio").style.display = "block";
     }
